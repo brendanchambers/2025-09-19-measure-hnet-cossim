@@ -8,3 +8,14 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Secrets
+secrets/**
+secrets
+**/secrets/**
+secret/**
+secret
+**/secret/**
+
+# Large artifacts
+models/**  

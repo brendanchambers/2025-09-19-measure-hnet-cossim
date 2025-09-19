@@ -39,3 +39,9 @@ pwd
 # uv pip install -e .  # temporary hack, not sure if this causes any other issues
 popd
 pwd 
+
+
+# uv add huggingface_hub[cli]  # <-- this didn't work for me; todo learn how to do this the uv way
+uv pip install huggingface_hub[cli]
+uv run hf download cartesia-ai/hnet_2stage_XL
+# will download to ~/.cache/huggingface/hub/models--cartesia-ai--hnet_2stage_XL

@@ -5,6 +5,7 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
+    "huggingface-hub[cli]>=0.35.0",
     "omegaconf>=2.3.0",
     "torch>=2.8.0",
 ]
