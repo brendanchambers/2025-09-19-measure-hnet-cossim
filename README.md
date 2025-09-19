@@ -1,4 +1,3 @@
-
 ## preliminaries  
 
 `bash scripts/setup/first_time_setup.sh`  
@@ -17,10 +16,17 @@ seeing warning but looks ok for now: <frozen runpy>:128: RuntimeWarning: 'hnet_i
 seeing warning but looks ok for now: <frozen runpy>:128: RuntimeWarning: 'hnet_impl.lin' found in sys.modules after import of package 'hnet_impl', but prior to execution of 'hnet_impl.lin'; this may result in unpredictable behaviour  
 ✓  
 
-# NOTE: download hnet_2stage_XL from somewhere first.
-# cp /path/to/hnet/hnet_2stage_XL.pt /path/to/hnet/config/hnet_2stage_XL.json .
-uv run -m hnet_impl.modeling_hnet
+
+## run the numerics comparing main-horse's research+1gpu impl to the reference implementation  
+NOTE: download hnet_2stage_XL from somewhere first.  
+cp /path/to/hnet/hnet_2stage_XL.pt /path/to/hnet/config/hnet_2stage_XL.json .  
+`cp models/cartesia-ai/hnet_2stage_XL/hnet_2stage_XL.pt configs/goombalab/hnet/hnet_2stage_XL.json hnet-impl`
+- dump in top level directory of hnet-impl project  
+`pushd hnet && uv run -m hnet_impl.modeling_hnet`  
+https://github.com/goombalab/hnet/tree/main/configs  
+
 
 ## inference hnet model  
+
 
 
