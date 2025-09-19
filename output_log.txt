@@ -1,0 +1,61 @@
+~/2025-09-19-measure-hnet-cossim/hnet-impl ~/2025-09-19-measure-hnet-cossim
+/home/brendanchambers/2025-09-19-measure-hnet-cossim/hnet-impl
+initial sys.path: 
+['/home/brendanchambers/2025-09-19-measure-hnet-cossim/src/examples', '/home/brendanchambers/.local/share/uv/python/cpython-3.11.13-linux-x86_64-gnu/lib/python311.zip', '/home/brendanchambers/.local/share/uv/python/cpython-3.11.13-linux-x86_64-gnu/lib/python3.11', '/home/brendanchambers/.local/share/uv/python/cpython-3.11.13-linux-x86_64-gnu/lib/python3.11/lib-dynload', '/home/brendanchambers/2025-09-19-measure-hnet-cossim/hnet-impl/.venv/lib/python3.11/site-packages', '/home/brendanchambers/2025-09-19-measure-hnet-cossim/hnet-impl/src', '/tmp/tmpm95xjlsc']
+
+updated sys.path: 
+['/home/brendanchambers/2025-09-19-measure-hnet-cossim/src/examples', '/home/brendanchambers/.local/share/uv/python/cpython-3.11.13-linux-x86_64-gnu/lib/python311.zip', '/home/brendanchambers/.local/share/uv/python/cpython-3.11.13-linux-x86_64-gnu/lib/python3.11', '/home/brendanchambers/.local/share/uv/python/cpython-3.11.13-linux-x86_64-gnu/lib/python3.11/lib-dynload', '/home/brendanchambers/2025-09-19-measure-hnet-cossim/hnet-impl/.venv/lib/python3.11/site-packages', '/home/brendanchambers/2025-09-19-measure-hnet-cossim/hnet-impl/src', '/tmp/tmpm95xjlsc', '/home/brendanchambers/2025-09-19-measure-hnet-cossim/hnet-impl/../src']
+
+fetching dataset...
+{'text': 'Hello World!'}
+loading model...
+running inference examples...
+Hello World!
+>>>>>>>>>>>>>>>
+with p(boundary) highlighting:
+ is a simple program that prints the phrase "Hello World!" to the screen. It is a standard introductory program for beginning programmers and is often used as the default hello world program in many 
+stripped:
+ is a simple program that prints the phrase "Hello World!" to the screen. It is a standard introductory program for beginning programmers and is often used as the default hello world program in many 
+--------------
+My career as a temperamental artist really picked up when I finally
+>>>>>>>>>>>>>>>
+with p(boundary) highlighting:
+ got a computer and a printer. I was able to print out my work and see it in person. I was able to see the difference between a print and a painting. I was able to see the difference between a print 
+stripped:
+ got a computer and a printer. I was able to print out my work and see it in person. I was able to see the difference between a print and a painting. I was able to see the difference between a print 
+--------------
+How about handling misspellings like for examplem mpellings
+>>>>>>>>>>>>>>>
+with p(boundary) highlighting:
+ like for example mpellings like for example mpellings like for example mpellings like for example mpellings like for example mpellings like for example mpellings like for example mpellings like for 
+stripped:
+ like for example mpellings like for example mpellings like for example mpellings like for example mpellings like for example mpellings like for example mpellings like for example mpellings like for 
+--------------
+I hate when I am writing and I make a tpo
+>>>>>>>>>>>>>>>
+with p(boundary) highlighting:
+int and then I realize I didn't say it the way I wanted to. I have to go back and rewrite it and then I have to go back and rewrite it again. I have to go back and rewrite it again. I have to go back
+stripped:
+int and then I realize I didn't say it the way I wanted to. I have to go back and rewrite it and then I have to go back and rewrite it again. I have to go back and rewrite it again. I have to go back
+--------------
+I'm a little tea pot, short and
+>>>>>>>>>>>>>>>
+with p(boundary) highlighting:
+ stout,
+With a lid that can't be lifted.
+I'm a little tea pot, short and stout,
+With a lid that can't be lifted.
+I'm a little tea pot, short and stout,
+With a lid that can't be lifted.
+I'm a little t
+stripped:
+ stout,
+With a lid that can't be lifted.
+I'm a little tea pot, short and stout,
+With a lid that can't be lifted.
+I'm a little tea pot, short and stout,
+With a lid that can't be lifted.
+I'm a little t
+--------------
+~/2025-09-19-measure-hnet-cossim
+/home/brendanchambers/2025-09-19-measure-hnet-cossim
